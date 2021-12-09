@@ -88,7 +88,7 @@ class Consumer {
 
     private val logger: Logger = LoggerFactory.getLogger(javaClass)
 
-    @KafkaListener(topics = ["users"], groupId = "group_id")
+    @KafkaListener(topics = ["users"], groupId = "kafkatest")
     fun consume(message: User) {
         logger.info("#### -> Consumed message -> $message")
     }

@@ -27,6 +27,8 @@ dependencies {
     testImplementation("org.springframework.kafka:spring-kafka-test")
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:kafka")
+    testImplementation("io.mockk:mockk:1.12.1")
+    testImplementation("io.kotest:kotest-assertions-core-jvm:5.0.1")
 }
 
 dependencyManagement {
