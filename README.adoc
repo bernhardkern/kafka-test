@@ -1,0 +1,14 @@
+= kafka-test
+
+== Requirements
+
+- running Kafka on localhost:9092
+
+== How to use
+
+    cat sampleuser.json | http POST localhost:9000/produce
+
+or
+
+    use runConfiguration ./.run/produce user.run.xml
+

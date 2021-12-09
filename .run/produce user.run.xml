@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="produce user" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" activateToolWindowBeforeRun="false" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="produce user" runType="Run single request">
+    <method v="2" />
+  </configuration>
+</component>
